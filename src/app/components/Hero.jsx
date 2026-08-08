@@ -60,7 +60,8 @@ function Hero() {
                     <div className="mt-5 flex flex-wrap gap-4">
                         <a
                             href="/resume.pdf"
-                            download
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="flex items-center gap-2 rounded-full bg-amber-500 hover:bg-amber-400 px-6 py-3 text-sm font-bold text-white shadow-xs transition-colors"
                         >
                             <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
