@@ -89,20 +89,32 @@ function Hero() {
                         <p><span className="text-orange-400">const</span> skills = &#123;</p>
                         <p className="pl-4"><span className="text-amber-300">frontend</span>: [&quot;React&quot;, &quot;Next.js&quot;, &quot;TailwindCSS&quot;],</p>
                         <p className="pl-4"><span className="text-amber-300">backend</span>: [&quot;Node.js&quot;, &quot;Express&quot;, &quot;MongoDB&quot;p],</p>
-                        <p className="pl-4"><span className="text-amber-300">philosophy</span>:   &quot;<Typewriter
-                            words={[
-                                "Clean code & Scalable UX",
-                                "Performance First",
-                                "User-Centered Design",
-                                "Build. Create. Inspire."
-                            ]}
-                            loop={0} // Infinite loop
-                            cursor
-                            cursorStyle="|"
-                            typeSpeed={70}
-                            deleteSpeed={40}
-                            delaySpeed={1500}
-                        />&quot;</p>
+                        <p className="pl-4 flex items-start">
+                            <span className="text-amber-300 shrink-0">
+                                philosophy:
+                            </span>
+
+                            <span className="ml-1 min-w-0">
+                                &quot;
+                                <span className="inline-block min-h-[1.5em]">
+                                    <Typewriter
+                                        words={[
+                                            "Clean code & Scalable UX",
+                                            "Performance First",
+                                            "User-Centered Design",
+                                            "Build. Create. Inspire."
+                                        ]}
+                                        loop={0}
+                                        cursor
+                                        cursorStyle="|"
+                                        typeSpeed={70}
+                                        deleteSpeed={40}
+                                        delaySpeed={1500}
+                                    />
+                                </span>
+                                &quot;
+                            </span>
+                        </p>
                         <p>&#125;;</p>
 
                         <div className="pt-4 border-t border-neutral-800 mt-4 flex justify-between items-center text-neutral-500 text-[11px]">

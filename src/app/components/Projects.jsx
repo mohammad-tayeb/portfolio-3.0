@@ -79,25 +79,25 @@ const Projects = () => {
                             </div>
 
                             {/* Overlay */}
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/20 opacity-0 transition-all duration-500 group-hover:opacity-100" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/20 opacity-100 transition-all duration-500 md:opacity-0 md:group-hover:opacity-100" />
 
                             {/* Content */}
-                            <div className="absolute inset-0 flex flex-col justify-center px-10">
-                                <div className="translate-x-[-40px] opacity-0 transition-all duration-500 group-hover:translate-x-0 group-hover:opacity-100">
+                            <div className="absolute inset-0 flex flex-col justify-center px-6 sm:px-10">
+                                <div className="opacity-100 translate-x-0 transition-all duration-500 md:translate-x-[-40px] md:opacity-0 md:group-hover:translate-x-0 md:group-hover:opacity-100">
                                     <span className="mb-3 inline-block rounded-full bg-orange-500 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-white">
                                         {project.category}
                                     </span>
 
-                                    <h3 className="mb-8 text-4xl font-bold text-white">
+                                    <h3 className="mb-6 text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
                                         {project.title}
                                     </h3>
 
-                                    <div className="flex flex-col gap-4">
+                                    <div className="flex flex-col gap-3">
                                         <a
                                             href={project.liveLink}
                                             target="_blank"
                                             rel="noreferrer"
-                                            className="w-52 rounded-md bg-orange-500 py-3 text-center font-bold uppercase tracking-wider text-white transition hover:bg-orange-600"
+                                            className="w-full max-w-52 rounded-md bg-orange-500 py-3 text-center font-bold uppercase tracking-wider text-white transition hover:bg-orange-600"
                                         >
                                             Live Preview
                                         </a>
@@ -106,7 +106,7 @@ const Projects = () => {
                                             href={project.repoLink}
                                             target="_blank"
                                             rel="noreferrer"
-                                            className="w-52 rounded-md bg-white py-3 text-center font-bold uppercase tracking-wider text-slate-900 transition hover:bg-slate-100"
+                                            className="w-full max-w-52 rounded-md bg-white py-3 text-center font-bold uppercase tracking-wider text-slate-900 transition hover:bg-slate-100"
                                         >
                                             Repository
                                         </a>
