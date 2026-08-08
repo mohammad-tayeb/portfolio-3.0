@@ -99,10 +99,10 @@ function Hero() {
                                 <span className="inline-block min-h-[1.5em]">
                                     <Typewriter
                                         words={[
-                                            "Clean code & Scalable UX",
                                             "Performance First",
-                                            "User-Centered Design",
-                                            "Build. Create. Inspire."
+                                            "Clean & Simple",
+                                            "User Focused",
+                                            "Build & Inspire"
                                         ]}
                                         loop={0}
                                         cursor

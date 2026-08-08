@@ -34,14 +34,6 @@ const Projects = () => {
             liveLink: 'https://fnm-automative.vercel.app/',
             repoLink: 'https://github.com/mohammad-tayeb/fnm-automative'
         },
-        // {
-        //     id: 4,
-        //     title: 'Food Delivery Hero Banner',
-        //     category: 'Design',
-        //     image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=600&auto=format&fit=crop', // Replace with your actual screenshot
-        //     liveLink: '#',
-        //     repoLink: '#'
-        // }
     ];
 
     return (
