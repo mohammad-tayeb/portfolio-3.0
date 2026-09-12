@@ -3,7 +3,7 @@ import Image from "next/image";
 const Projects = () => {
     const projects = [
         {
-            id: 1,
+            id: 0,
             title: 'Mango Mart BD',
             category: 'Clients E-commerce/ Next Js',
             image: "/p0.png", // Replace with your actual screenshot
@@ -11,7 +11,7 @@ const Projects = () => {
             repoLink: 'https://github.com/mohammad-tayeb/mango-mart.git'
         },
         {
-            id: 0,
+            id: 1,
             title: 'ZAPSHIFT DELIVERY SERVICE',
             category: 'Web App/ React JS',
             image: "/p3.png", // Replace with your actual screenshot
@@ -33,6 +33,14 @@ const Projects = () => {
             image: "/p1.png", // Replace with your actual screenshot
             liveLink: 'https://fnm-automative.vercel.app/',
             repoLink: 'https://github.com/mohammad-tayeb/fnm-automative'
+        },
+        {
+            id: 3,
+            title: 'Shopno',
+            category: 'Financial Organisation',
+            image: "/shopno.png", // Replace with your actual screenshot
+            liveLink: 'https://shopno-six.vercel.app/',
+            repoLink: 'https://github.com/mohammad-tayeb/shopno'
         },
     ];
 
